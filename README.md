@@ -5,6 +5,32 @@ Este repositorio contiene el desarrollo del proyecto GAMJE, cuyo objetivo es apo
 📌 Contexto del Proyecto:
 A partir del caso de estudio proporcionado en clases, se identificó que el sistema actual de EduTech presenta cuellos de botella y dificultades operativas debido a su crecimiento acelerado. En respuesta, este proyecto busca implementar una estructura modular basada en microservicios, permitiendo una gestión más ágil, mantenible y robusta para afrontar los nuevos desafíos tecnológicos.
 
+A continuación, se presentan los principales aspectos técnicos del proyecto desarrollado, cuyo objetivo fue implementar un CRUD funcional aplicando los conocimientos adquiridos en clases.
+
+En primer lugar, se utilizó XAMPP como entorno de desarrollo local, lo que permitió levantar el servidor y administrar la base de datos de forma sencilla y eficiente.
+
+Desarrollo del CRUD
+
+Como parte del aprendizaje práctico, se construyó un CRUD que permite realizar las operaciones básicas sobre una entidad específica. Estas operaciones son:
+
+    Crear registros (Create)
+
+    Leer información desde la base de datos (Read)
+
+    Modificar registros existentes (Update)
+
+    Eliminar registros (Delete)
+
+La lógica de conexión a la base de datos fue implementada utilizando PHP, incorporando buenas prácticas enseñadas durante el curso, tales como:
+
+    La separación de responsabilidades mediante la estructura Modelo-Vista-Controlador (MVC).
+
+    La aplicación de validaciones básicas para garantizar la calidad y coherencia de los datos ingresados.
+
+    El uso de una conexión segura a la base de datos a través de MySQLi o PDO, lo que permite prevenir vulnerabilidades comunes.
+
+Este enfoque permitió construir una aplicación clara, organizada y funcional, sirviendo como base para futuros desarrollos más complejos
+
 ⚙️ Tecnologías Utilizadas:
 
 - Java 17+
@@ -36,57 +62,38 @@ Durante esta etapa inicial del proyecto, se ha trabajado en los siguientes aspec
 El API Gateway enruta todas las solicitudes bajo el prefijo `/api`.
 
 
-1. Configuración del Entorno
-Se utilizó XAMPP como entorno local para levantar el servidor y administrar la base de datos. Se configuraron los servicios de Apache y MySQL para permitir la conexión entre la lógica del sistema y el almacenamiento de datos.
+## 🧪 Cómo ejecutar localmente
 
-Pasos seguidos:
+1. Clona este repositorio y entra a la carpeta raíz:
 
-Instalación de XAMPP.
+```bash
+git clone https://github.com/tu-usuario/gamje-microservicios.git
+cd gamje-microservicios
+```
 
-Creación de la base de datos y tablas iniciales en phpMyAdmin.
+2. Asegúrate de tener **MySQL** corriendo y crea las siguientes bases de datos:
 
-Desarrollo de la estructura del proyecto en la carpeta htdocs.
+- `servicio_usuario`
+- `servicio_curso`
+- `servicio_inscripcion`
+- `servicio_pago`
 
-2. Desarrollo del CRUD Básico
-Como parte del aprendizaje aplicado en clases, se construyó un CRUD funcional que permite realizar operaciones básicas sobre una entidad seleccionada (por ejemplo, usuarios o cursos). Este CRUD incluye:
+3. Desde cada carpeta de microservicio:
 
-Crear registros (Create)
+```bash
+mvn spring-boot:run
+```
 
-Leer información desde la base de datos (Read)
+4. Inicia el gateway:
 
-Modificar registros existentes (Update)
+```bash
+cd gateway
+mvn spring-boot:run
+```
 
-Eliminar registros (Delete)
-
-La lógica de conexión a la base de datos fue implementada utilizando PHP, aplicando buenas prácticas aprendidas en clases como:
-
-Separación de archivos por funciones (modelo, vista, controlador)
-
-Validaciones básicas
-
-Conexión segura utilizando mysqli o PDO
-
-3. Aplicación de Conceptos Aprendidos
-Todo lo desarrollado hasta el momento ha sido construido integrando lo aprendido en clases, incluyendo:
-
-Estructuración de carpetas del proyecto.
-
-Uso de formularios HTML para enviar datos a través del método POST.
-
-Gestión de rutas básicas mediante archivos .php.
-
-Conexión e interacción con la base de datos MySQL.
 
 🔄 Próximos Pasos:
-En fases siguientes del proyecto, se espera:
-
-HTML/CSS/JS para la parte visual del cliente
-
-Modularizar la lógica de negocio en servicios independientes.
-
-Iniciar la transición del sistema hacia una arquitectura distribuida basada en microservicios.
-
-Implementar pruebas más robustas, documentación técnica y posiblemente una API RESTful.
+*****POR COMPLETAR***************
 
 🤝 Créditos:
 Este proyecto fue desarrollado por Allen Ibañez-German Ormeño-Eduardo Lizama, estudiantes de Desarrollo Full Stack, como parte del proceso de evaluación académica. Agradecemos a nuestro docente por su guía en el aprendizaje de herramientas y buenas prácticas de desarrollo web, endpoint y springboot.
