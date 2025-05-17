@@ -15,9 +15,9 @@ A partir del caso de estudio proporcionado en clases, se identificó que el sist
 - Lombok
 - Postman para pruebas de endpoints 
 - Maven
--Visual Studio Code
--XAMPP como entorno local de desarrollo (servidor Apache + base de datos MySQL)
--Git y GitHub para control de versiones
+- Visual Studio Code
+- XAMPP como entorno local de desarrollo (servidor Apache + base de datos MySQL)
+- Git y GitHub para control de versiones
 
 🛠️ Implementación Actual:
 Durante esta etapa inicial del proyecto, se ha trabajado en los siguientes aspectos:
