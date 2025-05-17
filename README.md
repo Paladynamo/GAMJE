@@ -24,6 +24,15 @@ Git y GitHub para control de versiones
 
 🛠️ Implementación Actual:
 Durante esta etapa inicial del proyecto, se ha trabajado en los siguientes aspectos:
+## 📦 Microservicios implementados
+
+| Microservicio   | Puerto | Descripción                                         |
+|------------------|--------|----------------------------------------------------|
+| Usuarios         | 8081   | Registro y gestión de usuarios (rol, email, RUT)   |
+| Cursos           | 8099   | Administración de cursos, docentes y duración      |
+| Inscripciones    | 8098   | Vinculación de usuarios a cursos                   |
+| Pagos            | 8097   | Registro de pagos por curso y usuario              |
+| Gateway          | 8300   | Entrada central para acceder a todos los servicios |
 
 1. Configuración del Entorno
 Se utilizó XAMPP como entorno local para levantar el servidor y administrar la base de datos. Se configuraron los servicios de Apache y MySQL para permitir la conexión entre la lógica del sistema y el almacenamiento de datos.
