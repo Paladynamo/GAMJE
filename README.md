@@ -2,10 +2,10 @@
 ![Image](https://github.com/user-attachments/assets/5c75e880-deba-4cf2-9958-ccd5f8bb9dca)
 Este repositorio contiene el desarrollo del proyecto GAMJE, cuyo objetivo es apoyar el proceso de transformación digital de EduTech Innovators SPA, una empresa emergente chilena dedicada a la creación de plataformas educativas en línea. Este trabajo forma parte de una iniciativa académica centrada en la evolución de una arquitectura monolítica hacia una orientada a microservicios, con el fin de mejorar la escalabilidad, rendimiento y disponibilidad del sistema.
 
-📌 Contexto del Proyecto
+📌 Contexto del Proyecto:
 A partir del caso de estudio proporcionado en clases, se identificó que el sistema actual de EduTech presenta cuellos de botella y dificultades operativas debido a su crecimiento acelerado. En respuesta, este proyecto busca implementar una estructura modular basada en microservicios, permitiendo una gestión más ágil, mantenible y robusta para afrontar los nuevos desafíos tecnológicos.
 
-⚙️ Tecnologías Utilizadas
+⚙️ Tecnologías Utilizadas:
 PHP & MySQL
 
 XAMPP como entorno local de desarrollo (servidor Apache + base de datos MySQL)
@@ -22,7 +22,7 @@ Spring Initializr
 
 Git y GitHub para control de versiones
 
-🛠️ Implementación Actual
+🛠️ Implementación Actual:
 Durante esta etapa inicial del proyecto, se ha trabajado en los siguientes aspectos:
 
 1. Configuración del Entorno
@@ -66,7 +66,7 @@ Gestión de rutas básicas mediante archivos .php.
 
 Conexión e interacción con la base de datos MySQL.
 
-🔄 Próximos Pasos
+🔄 Próximos Pasos:
 En fases siguientes del proyecto, se espera:
 
 Modularizar la lógica de negocio en servicios independientes.
@@ -75,5 +75,5 @@ Iniciar la transición del sistema hacia una arquitectura distribuida basada en 
 
 Implementar pruebas más robustas, documentación técnica y posiblemente una API RESTful.
 
-🤝 Créditos
+🤝 Créditos:
 Este proyecto fue desarrollado por Allen Ibañez-German Ormeño-Eduardo Lizama, estudiantes de Desarrollo Full Stack, como parte del proceso de evaluación académica. Agradecemos a nuestro docente por su guía en el aprendizaje de herramientas y buenas prácticas de desarrollo web, endpoint y springboot.
