@@ -6,19 +6,18 @@ Este repositorio contiene el desarrollo del proyecto GAMJE, cuyo objetivo es apo
 A partir del caso de estudio proporcionado en clases, se identificó que el sistema actual de EduTech presenta cuellos de botella y dificultades operativas debido a su crecimiento acelerado. En respuesta, este proyecto busca implementar una estructura modular basada en microservicios, permitiendo una gestión más ágil, mantenible y robusta para afrontar los nuevos desafíos tecnológicos.
 
 ⚙️ Tecnologías Utilizadas:
-PHP & MySQL
 
-XAMPP como entorno local de desarrollo (servidor Apache + base de datos MySQL)
+- Java 17+
+- Spring Boot 3.3.11
+- Spring Cloud Gateway
+- Spring WebClient (para comunicación entre MS)
+- Spring Data JPA + MySQL
+- Lombok
+- Postman para pruebas de endpoints 
+- Maven
+-Visual Studio Code
+-XAMPP como entorno local de desarrollo (servidor Apache + base de datos MySQL)
 
-HTML/CSS/JS para la parte visual del cliente
-
-Postman para pruebas de endpoints (opcional)
-
-Visual Studio Code
-
-SpringBoot
-
-Spring Initializr
 
 Git y GitHub para control de versiones
 
@@ -82,6 +81,8 @@ Conexión e interacción con la base de datos MySQL.
 
 🔄 Próximos Pasos:
 En fases siguientes del proyecto, se espera:
+
+HTML/CSS/JS para la parte visual del cliente
 
 Modularizar la lógica de negocio en servicios independientes.
 
